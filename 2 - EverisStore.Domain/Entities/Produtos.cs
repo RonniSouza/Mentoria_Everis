@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace EverisStore.Domain.Entities
 {
     public class Produtos : Base
@@ -13,6 +15,7 @@ namespace EverisStore.Domain.Entities
             Name = name;
             Marca = marca;
             Descricao = descricao;
+            _errors = new List<string>();
         }
 
         public void ChangeName(string name){

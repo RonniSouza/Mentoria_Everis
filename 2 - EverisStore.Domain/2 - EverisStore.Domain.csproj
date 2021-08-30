@@ -5,4 +5,8 @@
     <RootNamespace>_2___EverisStore.Domain</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="fluentvalidation" Version="10.3.3" />
+  </ItemGroup>
+
 </Project>
