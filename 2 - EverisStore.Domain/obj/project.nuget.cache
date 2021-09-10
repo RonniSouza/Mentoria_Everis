@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "zi0kPoFG4AQtAC8xGjgWiTc0KiunwkwxjgvJpqdnmr45O9qP0OINyJa+/kVWAjVhJHBtOmUlM1gpkcFgXs6DzA==",
+  "dgSpecHash": "Dr9Z5zdY86DA3OWvVg17+2LBFB6IgTXYU4A5SPz1KbCFyAB5L3tpr/7DskeehgmC/MlQJO5jAdJ0WNjlWF+WYQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ronni\\estudo\\c#\\mentoriaeveris\\2 - EverisStore.Domain\\2 - EverisStore.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ronni\\.nuget\\packages\\bogus\\33.1.1\\bogus.33.1.1.nupkg.sha512",
     "C:\\Users\\Ronni\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512"
   ],
   "logs": []

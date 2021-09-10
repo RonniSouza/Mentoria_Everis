@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Bogus/33.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        }
+      },
       "FluentValidation/10.3.3": {
         "type": "package",
         "compile": {
@@ -14,6 +23,23 @@
     }
   },
   "libraries": {
+    "Bogus/33.1.1": {
+      "sha512": "k3zLOajCV2iaus75RFqtC3PhHfJHuP2/jTN5Yl1Gixr0jTzrKiufm6oovpn6Nhbjw/zr5CTIzYioUS6HRhEi1w==",
+      "type": "package",
+      "path": "bogus/33.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bogus.33.1.1.nupkg.sha512",
+        "bogus.nuspec",
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.xml"
+      ]
+    },
     "FluentValidation/10.3.3": {
       "sha512": "sgRC+7q4mnmDHE9ehk2cvb+FDTy/gtw5iBoKFY3FVp1ZwFsLS0kIcdSpNlCO3XyyNIzZI2ca8I/YiFG9pM6x0Q==",
       "type": "package",
@@ -35,6 +61,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "bogus >= 33.1.1",
       "fluentvalidation >= 10.3.3"
     ]
   },
@@ -82,6 +109,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "bogus": {
+            "target": "Package",
+            "version": "[33.1.1, )"
+          },
           "fluentvalidation": {
             "target": "Package",
             "version": "[10.3.3, )"

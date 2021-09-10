@@ -10,4 +10,8 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\2 - EverisStore.Domain\2 - EverisStore.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
