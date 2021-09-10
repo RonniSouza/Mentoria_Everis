@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "G04/OEcladHtqGFRxFQT3hFMPgEPsRRbHtLfvIf/Na/lJ5IAhT5AGieJWd5MPGzhKs62JUXZoiDRLLchtudclw==",
+  "dgSpecHash": "D36rHzQ4jrw1ZpH0ND5nXwPggCGb/da1o8K2sPhvoPtqPsHUsjyuyGX5LTgi79NylD90IwrZie/EvZvdTAFJnw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ronni\\estudo\\c#\\mentoriaeveris\\EverisStore.Api\\EverisStore.Api.csproj",
+  "projectFilePath": "C:\\Users\\Ronni\\estudo\\c#\\mentoriaeveris\\1 - EverisStore.Api\\EverisStore.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ronni\\.nuget\\packages\\bogus\\33.1.1\\bogus.33.1.1.nupkg.sha512",
+    "C:\\Users\\Ronni\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
     "C:\\Users\\Ronni\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.1\\microsoft.aspnetcore.authentication.jwtbearer.5.0.1.nupkg.sha512",
     "C:\\Users\\Ronni\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.1\\microsoft.aspnetcore.authentication.openidconnect.5.0.1.nupkg.sha512",
     "C:\\Users\\Ronni\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

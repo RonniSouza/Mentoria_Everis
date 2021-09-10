@@ -2,6 +2,24 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Bogus/33.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        }
+      },
+      "FluentValidation/10.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/FluentValidation.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.1": {
         "type": "package",
         "dependencies": {
@@ -203,10 +221,59 @@
             "rid": "win"
           }
         }
+      },
+      "2 - EverisStore.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "bogus": "33.1.1",
+          "fluentvalidation": "10.3.3"
+        },
+        "compile": {
+          "bin/placeholder/2 - EverisStore.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/2 - EverisStore.Domain.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Bogus/33.1.1": {
+      "sha512": "k3zLOajCV2iaus75RFqtC3PhHfJHuP2/jTN5Yl1Gixr0jTzrKiufm6oovpn6Nhbjw/zr5CTIzYioUS6HRhEi1w==",
+      "type": "package",
+      "path": "bogus/33.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bogus.33.1.1.nupkg.sha512",
+        "bogus.nuspec",
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.xml"
+      ]
+    },
+    "FluentValidation/10.3.3": {
+      "sha512": "sgRC+7q4mnmDHE9ehk2cvb+FDTy/gtw5iBoKFY3FVp1ZwFsLS0kIcdSpNlCO3XyyNIzZI2ca8I/YiFG9pM6x0Q==",
+      "type": "package",
+      "path": "fluentvalidation/10.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluent-validation-icon.png",
+        "fluentvalidation.10.3.3.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
     "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.1": {
       "sha512": "BGCA7V2+x6gjzZcOLfn1UYTicTBbK1kMVsoV56qiVc2+zpdEc62YPbLCC7jBUpjCeS9w/5FkGMkjvtwCarH7hg==",
       "type": "package",
@@ -576,10 +643,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "2 - EverisStore.Domain/1.0.0": {
+      "type": "project",
+      "path": "../2 - EverisStore.Domain/2 - EverisStore.Domain.csproj",
+      "msbuildProject": "../2 - EverisStore.Domain/2 - EverisStore.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "2 - EverisStore.Domain >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.1",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 5.0.1",
       "Swashbuckle.AspNetCore >= 5.6.3"
@@ -592,11 +665,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ronni\\estudo\\c#\\mentoriaeveris\\EverisStore.Api\\EverisStore.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Ronni\\estudo\\c#\\mentoriaeveris\\1 - EverisStore.Api\\EverisStore.Api.csproj",
       "projectName": "EverisStore.Api",
-      "projectPath": "C:\\Users\\Ronni\\estudo\\c#\\mentoriaeveris\\EverisStore.Api\\EverisStore.Api.csproj",
+      "projectPath": "C:\\Users\\Ronni\\estudo\\c#\\mentoriaeveris\\1 - EverisStore.Api\\EverisStore.Api.csproj",
       "packagesPath": "C:\\Users\\Ronni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ronni\\estudo\\c#\\mentoriaeveris\\EverisStore.Api\\obj\\",
+      "outputPath": "C:\\Users\\Ronni\\estudo\\c#\\mentoriaeveris\\1 - EverisStore.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -616,7 +689,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Ronni\\estudo\\c#\\mentoriaeveris\\2 - EverisStore.Domain\\2 - EverisStore.Domain.csproj": {
+              "projectPath": "C:\\Users\\Ronni\\estudo\\c#\\mentoriaeveris\\2 - EverisStore.Domain\\2 - EverisStore.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

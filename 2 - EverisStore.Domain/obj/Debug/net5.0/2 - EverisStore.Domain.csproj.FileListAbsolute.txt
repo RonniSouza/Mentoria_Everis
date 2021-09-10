@@ -1,0 +1,12 @@
+C:\Users\Ronni\estudo\c#\mentoriaeveris\2 - EverisStore.Domain\bin\Debug\net5.0\2 - EverisStore.Domain.deps.json
+C:\Users\Ronni\estudo\c#\mentoriaeveris\2 - EverisStore.Domain\bin\Debug\net5.0\2 - EverisStore.Domain.dll
+C:\Users\Ronni\estudo\c#\mentoriaeveris\2 - EverisStore.Domain\bin\Debug\net5.0\ref\2 - EverisStore.Domain.dll
+C:\Users\Ronni\estudo\c#\mentoriaeveris\2 - EverisStore.Domain\bin\Debug\net5.0\2 - EverisStore.Domain.pdb
+C:\Users\Ronni\estudo\c#\mentoriaeveris\2 - EverisStore.Domain\obj\Debug\net5.0\2 - EverisStore.Domain.csprojAssemblyReference.cache
+C:\Users\Ronni\estudo\c#\mentoriaeveris\2 - EverisStore.Domain\obj\Debug\net5.0\2 - EverisStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ronni\estudo\c#\mentoriaeveris\2 - EverisStore.Domain\obj\Debug\net5.0\2 - EverisStore.Domain.AssemblyInfoInputs.cache
+C:\Users\Ronni\estudo\c#\mentoriaeveris\2 - EverisStore.Domain\obj\Debug\net5.0\2 - EverisStore.Domain.AssemblyInfo.cs
+C:\Users\Ronni\estudo\c#\mentoriaeveris\2 - EverisStore.Domain\obj\Debug\net5.0\2 - EverisStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ronni\estudo\c#\mentoriaeveris\2 - EverisStore.Domain\obj\Debug\net5.0\2 - EverisStore.Domain.dll
+C:\Users\Ronni\estudo\c#\mentoriaeveris\2 - EverisStore.Domain\obj\Debug\net5.0\ref\2 - EverisStore.Domain.dll
+C:\Users\Ronni\estudo\c#\mentoriaeveris\2 - EverisStore.Domain\obj\Debug\net5.0\2 - EverisStore.Domain.pdb
