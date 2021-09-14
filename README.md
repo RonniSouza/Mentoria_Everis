@@ -1,5 +1,5 @@
 # Mentoria_Everis
 
-* Praticando Domain driven design e princípios solid
+* Projeto realizado através da mentoria da everis na plataforma ***Digital Innovation One***
 
-#### Em desenvolvimento 📝
+#### Projeto simples de um CRUD de produtos utilizando ***bogus*** como gerador de dados fake.
